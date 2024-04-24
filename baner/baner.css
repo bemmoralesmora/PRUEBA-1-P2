@@ -1,0 +1,15 @@
+.section_baner{
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.img_baner{
+    width: 850px;
+    height: 400px;
+
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+    margin-left: 60px;
+}

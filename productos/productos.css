@@ -1,0 +1,34 @@
+.section_productos{
+    height: 700px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    align-items: center;
+    
+}
+
+.productos{
+    width: 300px;
+    height: 325px ;
+    margin-left: 80px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.img_productos{
+    width: 280px;
+    height: 150px;
+    display: flex;
+    object-fit: cover;
+
+}
+
+.texto_productos{
+    width: 250px;
+    height: 140px;
+    font-size: 15px;
+    font-weight: 400;
+}
