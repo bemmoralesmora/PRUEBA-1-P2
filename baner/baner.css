@@ -5,11 +5,17 @@
 }
 
 .img_baner{
-    width: 850px;
+    width: 1100px;
     height: 400px;
 
     display: flex;
     justify-content: center;
-    object-fit: cover;
     margin-left: 60px;
+}
+
+.img_baner img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    object-fit: cover;
 }
